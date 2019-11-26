@@ -18,6 +18,8 @@ This command renders an accurately shaped Path that can be moved by any player. 
 
 If the generated path is selected, running `!sv` will attempt to convert the path to a grid-based shape.
 
+---
+
 #### `!svfast <shape> <radius>`
 - Shape must be "sphere". More shapes coming soon.
 - Radius must be in game units, depending on the current page's configuration.
