@@ -7,8 +7,7 @@
 */
 
 var SpellVisualiser = SpellVisualiser || (function () {
-    let scriptStart = new Error;
-    scriptStart = scriptStart.stack.match(/apiscript\.js:(\d+)/)[1] * 1;
+    'use strict';
 
     var stateName = 'SPELLVISUALISER';
 
